@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LeafRouter'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'App router'
 
   s.description      = <<-DESC
