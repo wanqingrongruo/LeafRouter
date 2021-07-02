@@ -25,9 +25,9 @@ App Router, which helps us to navigate in our apps.
 
   s.source_files = 'LeafRouter/Classes/**/*'
   
-   s.resource_bundles = {
-     'LeafRouter' => ['LeafRouter/Assets/*.png']
-   }
+  # s.resource_bundles = {
+  #   'LeafRouter' => ['LeafRouter/Assets/*.png']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
