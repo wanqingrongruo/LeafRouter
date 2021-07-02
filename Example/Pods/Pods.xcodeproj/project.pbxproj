@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034CCC855F02E4C931833C4B847F3388 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		07223C00187498F8A65E9FDFC32AE0BE /* LeafRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B16934429C0B48C736D0E33E9AE2A99 /* LeafRouter-dummy.m */; };
+		12B51E7D41FCA6D242EB204F433CDD8D /* Pods-LeafRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B41EABBE2ED2CFAA88E3BA79C2666B /* Pods-LeafRouter_Tests-dummy.m */; };
+		2FAF5146C19E18CA00AFD60480E8266F /* Pods-LeafRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D327BF32B26879D7E34C68338265C /* Pods-LeafRouter_Example-dummy.m */; };
+		53A65D30C29C299239A5D0A73A138E3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		57E7AAA170D4C575F6908858BC6477DF /* LeafRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6B4911E98224BA05AC53591CAA48E3C /* LeafRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B2525ED8F7044AE84C49A295FFD348E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AAFB6EB421F24435FB6768D271D8A48C /* Pods-LeafRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB22BE33CFF0969BC16E3A01059C5679 /* Pods-LeafRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD5696DAE09ED8AB25592219EA3AE462 /* Pods-LeafRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C78B1963EECA2454BBB453342270A7FC /* Pods-LeafRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0861548268F05E10068B74B /* LeafRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0861547268F05E10068B74B /* LeafRouter.swift */; };
+		E086154A268F060A0068B74B /* LeafRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0861549268F060A0068B74B /* LeafRouting.swift */; };
+		E086154C268F07190068B74B /* Navigating.swift in Sources */ = {isa = PBXBuildFile; fileRef = E086154B268F07190068B74B /* Navigating.swift */; };
+		E086154E268F07480068B74B /* TransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E086154D268F07480068B74B /* TransitionType.swift */; };
+		E0861550268F07A00068B74B /* RoutingSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E086154F268F07A00068B74B /* RoutingSource.swift */; };
+		E0861554268F096E0068B74B /* UIApplication+ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0861553268F096E0068B74B /* UIApplication+ex.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D9BBDEBA39452391203B7472C1ABE79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00BE008A4109B76184042687F6E5CD23;
+			remoteInfo = LeafRouter;
+		};
+		BA463DAE8BC2BFDBCC7ECF4551BBD61A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC872B65173D5101B9F6D632C641B44;
+			remoteInfo = "Pods-LeafRouter_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029A42031367EBED7C92EC6BA2F70CCA /* Pods-LeafRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeafRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0E0027AEB0D26AC89CFE6EA45707020A /* LeafRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LeafRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0E6DDE1C8DF9D22120B0F3075805B897 /* LeafRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LeafRouter.modulemap; sourceTree = "<group>"; };
+		1BA91ABF4B72C9344DC5694C06FA1F31 /* Pods-LeafRouter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeafRouter_Example-Info.plist"; sourceTree = "<group>"; };
+		1CBFD4E07A56BB709528D1EDF59C805F /* LeafRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LeafRouter.release.xcconfig; sourceTree = "<group>"; };
+		1F00CCEBA48799057457F0DBC0AA9DAD /* Pods_LeafRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeafRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FCDC189D3FB9E3F2C27ED9E82FBB1EB /* LeafRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LeafRouter-prefix.pch"; sourceTree = "<group>"; };
+		24F648CE8206147E6C724D83A955909A /* Pods-LeafRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LeafRouter_Tests.modulemap"; sourceTree = "<group>"; };
+		28B41EABBE2ED2CFAA88E3BA79C2666B /* Pods-LeafRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeafRouter_Tests-dummy.m"; sourceTree = "<group>"; };
+		2B16934429C0B48C736D0E33E9AE2A99 /* LeafRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LeafRouter-dummy.m"; sourceTree = "<group>"; };
+		4E9BDCC8411B0FAED68B9140BED89FEF /* Pods-LeafRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeafRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4F198805942B3110D465CE4F46213169 /* Pods-LeafRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeafRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6D97A0E0C7F74143301F226B72B2A960 /* LeafRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeafRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75B347F6A8C5087CE56684A434E88F6E /* Pods-LeafRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeafRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		77004ED256C29788D7BE4CEC204CB48C /* Pods-LeafRouter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeafRouter_Tests-Info.plist"; sourceTree = "<group>"; };
+		893D449DBB224D73AD93E796EB15EEEB /* Pods-LeafRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeafRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C1D327BF32B26879D7E34C68338265C /* Pods-LeafRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeafRouter_Example-dummy.m"; sourceTree = "<group>"; };
+		956422919CBBD7363FF886D0F19AC56F /* LeafRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LeafRouter.debug.xcconfig; sourceTree = "<group>"; };
+		95A5B578DC6A31C431232EB804352B75 /* LeafRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LeafRouter-Info.plist"; sourceTree = "<group>"; };
+		98CFD24A19C9BD461BF10F9F33FCCF1D /* Pods-LeafRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeafRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B014C440759B301D463519B80C85E575 /* Pods-LeafRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeafRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6DCE1AC4E3460952B1211FC49446D4D /* Pods-LeafRouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LeafRouter_Example.modulemap"; sourceTree = "<group>"; };
+		B865E15D9FA00E6DA6B3697D7804EEF3 /* Pods-LeafRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeafRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BF08A468E3C289913732FC2EE64D399B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C015C769EC2BDCDB5FD0056C9FDEC2B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C6B4911E98224BA05AC53591CAA48E3C /* LeafRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LeafRouter-umbrella.h"; sourceTree = "<group>"; };
+		C78B1963EECA2454BBB453342270A7FC /* Pods-LeafRouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LeafRouter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CC9F5B58AE186326A3A011A2D1654A4B /* Pods_LeafRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeafRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05BBB71C2971F6FB4492DDD9990F070 /* Pods-LeafRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeafRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E0861547268F05E10068B74B /* LeafRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeafRouter.swift; path = ../LeafRouter/Classes/Routing/LeafRouter.swift; sourceTree = "<group>"; };
+		E0861549268F060A0068B74B /* LeafRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeafRouting.swift; path = ../LeafRouter/Classes/Routing/LeafRouting.swift; sourceTree = "<group>"; };
+		E086154B268F07190068B74B /* Navigating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Navigating.swift; path = ../LeafRouter/Classes/Routing/Navigating.swift; sourceTree = "<group>"; };
+		E086154D268F07480068B74B /* TransitionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransitionType.swift; path = ../LeafRouter/Classes/Routing/TransitionType.swift; sourceTree = "<group>"; };
+		E086154F268F07A00068B74B /* RoutingSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoutingSource.swift; path = ../LeafRouter/Classes/Routing/RoutingSource.swift; sourceTree = "<group>"; };
+		E0861553268F096E0068B74B /* UIApplication+ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIApplication+ex.swift"; path = "../LeafRouter/Classes/Routing/UIApplication+ex.swift"; sourceTree = "<group>"; };
+		FB22BE33CFF0969BC16E3A01059C5679 /* Pods-LeafRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LeafRouter_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40D854139960F5CB7937A6613C48FE77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034CCC855F02E4C931833C4B847F3388 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E745EADD18AC9AF52701E2DA87D5C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A65D30C29C299239A5D0A73A138E3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55552D8B6E7748692B515F8161538FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2525ED8F7044AE84C49A295FFD348E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		261C259BE1CF0138B399C39E0035A560 /* Pods-LeafRouter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B6DCE1AC4E3460952B1211FC49446D4D /* Pods-LeafRouter_Example.modulemap */,
+				029A42031367EBED7C92EC6BA2F70CCA /* Pods-LeafRouter_Example-acknowledgements.markdown */,
+				98CFD24A19C9BD461BF10F9F33FCCF1D /* Pods-LeafRouter_Example-acknowledgements.plist */,
+				8C1D327BF32B26879D7E34C68338265C /* Pods-LeafRouter_Example-dummy.m */,
+				4F198805942B3110D465CE4F46213169 /* Pods-LeafRouter_Example-frameworks.sh */,
+				1BA91ABF4B72C9344DC5694C06FA1F31 /* Pods-LeafRouter_Example-Info.plist */,
+				FB22BE33CFF0969BC16E3A01059C5679 /* Pods-LeafRouter_Example-umbrella.h */,
+				B865E15D9FA00E6DA6B3697D7804EEF3 /* Pods-LeafRouter_Example.debug.xcconfig */,
+				4E9BDCC8411B0FAED68B9140BED89FEF /* Pods-LeafRouter_Example.release.xcconfig */,
+			);
+			name = "Pods-LeafRouter_Example";
+			path = "Target Support Files/Pods-LeafRouter_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8FCA9C6E6D71777632B8F61AA0E1BFFA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				261C259BE1CF0138B399C39E0035A560 /* Pods-LeafRouter_Example */,
+				F22962990C6EE6B08819F59736965887 /* Pods-LeafRouter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A54A9BC5C2BE98B552CB1534280126D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D97A0E0C7F74143301F226B72B2A960 /* LeafRouter.framework */,
+				1F00CCEBA48799057457F0DBC0AA9DAD /* Pods_LeafRouter_Example.framework */,
+				CC9F5B58AE186326A3A011A2D1654A4B /* Pods_LeafRouter_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B611B284C0571C9F726CD9FE1BD7C4BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E6DDE1C8DF9D22120B0F3075805B897 /* LeafRouter.modulemap */,
+				2B16934429C0B48C736D0E33E9AE2A99 /* LeafRouter-dummy.m */,
+				95A5B578DC6A31C431232EB804352B75 /* LeafRouter-Info.plist */,
+				1FCDC189D3FB9E3F2C27ED9E82FBB1EB /* LeafRouter-prefix.pch */,
+				C6B4911E98224BA05AC53591CAA48E3C /* LeafRouter-umbrella.h */,
+				956422919CBBD7363FF886D0F19AC56F /* LeafRouter.debug.xcconfig */,
+				1CBFD4E07A56BB709528D1EDF59C805F /* LeafRouter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LeafRouter";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DFD552F50F3DBEA34E870D11C8411576 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A54A9BC5C2BE98B552CB1534280126D6 /* Products */,
+				8FCA9C6E6D71777632B8F61AA0E1BFFA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFD552F50F3DBEA34E870D11C8411576 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1558DBB8C32DD7C824EEC1D38C9214A /* LeafRouter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E0861546268F05B30068B74B /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				E0861549268F060A0068B74B /* LeafRouting.swift */,
+				E0861547268F05E10068B74B /* LeafRouter.swift */,
+				E086154B268F07190068B74B /* Navigating.swift */,
+				E086154D268F07480068B74B /* TransitionType.swift */,
+				E086154F268F07A00068B74B /* RoutingSource.swift */,
+				E0861553268F096E0068B74B /* UIApplication+ex.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		E1558DBB8C32DD7C824EEC1D38C9214A /* LeafRouter */ = {
+			isa = PBXGroup;
+			children = (
+				E0861546268F05B30068B74B /* Routing */,
+				EBF3A10FB24AFB679B7BF3B1EF601E2A /* Pod */,
+				B611B284C0571C9F726CD9FE1BD7C4BB /* Support Files */,
+			);
+			name = LeafRouter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EBF3A10FB24AFB679B7BF3B1EF601E2A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0E0027AEB0D26AC89CFE6EA45707020A /* LeafRouter.podspec */,
+				C015C769EC2BDCDB5FD0056C9FDEC2B8 /* LICENSE */,
+				BF08A468E3C289913732FC2EE64D399B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F22962990C6EE6B08819F59736965887 /* Pods-LeafRouter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				24F648CE8206147E6C724D83A955909A /* Pods-LeafRouter_Tests.modulemap */,
+				893D449DBB224D73AD93E796EB15EEEB /* Pods-LeafRouter_Tests-acknowledgements.markdown */,
+				B014C440759B301D463519B80C85E575 /* Pods-LeafRouter_Tests-acknowledgements.plist */,
+				28B41EABBE2ED2CFAA88E3BA79C2666B /* Pods-LeafRouter_Tests-dummy.m */,
+				77004ED256C29788D7BE4CEC204CB48C /* Pods-LeafRouter_Tests-Info.plist */,
+				C78B1963EECA2454BBB453342270A7FC /* Pods-LeafRouter_Tests-umbrella.h */,
+				75B347F6A8C5087CE56684A434E88F6E /* Pods-LeafRouter_Tests.debug.xcconfig */,
+				E05BBB71C2971F6FB4492DDD9990F070 /* Pods-LeafRouter_Tests.release.xcconfig */,
+			);
+			name = "Pods-LeafRouter_Tests";
+			path = "Target Support Files/Pods-LeafRouter_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30C344763DD40FE3FDA6E711C30F6FBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E7AAA170D4C575F6908858BC6477DF /* LeafRouter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7718ACDABC3D2C1D05C9E6EEB554DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5696DAE09ED8AB25592219EA3AE462 /* Pods-LeafRouter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72A09A7475DDF4F8F8EBF7F0D6CE346 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFB6EB421F24435FB6768D271D8A48C /* Pods-LeafRouter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00BE008A4109B76184042687F6E5CD23 /* LeafRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 799BD960B416AC54239E63819BFECD39 /* Build configuration list for PBXNativeTarget "LeafRouter" */;
+			buildPhases = (
+				30C344763DD40FE3FDA6E711C30F6FBA /* Headers */,
+				71BA7F67721CC3B0EDDE39F322ED4B46 /* Sources */,
+				D55552D8B6E7748692B515F8161538FF /* Frameworks */,
+				528E51F976D98D699412B72019D0DF1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeafRouter;
+			productName = LeafRouter;
+			productReference = 6D97A0E0C7F74143301F226B72B2A960 /* LeafRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C7077BED39412FD731A7700C211C4AE /* Pods-LeafRouter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783C1760F43A88EDE31787571A24167A /* Build configuration list for PBXNativeTarget "Pods-LeafRouter_Tests" */;
+			buildPhases = (
+				CD7718ACDABC3D2C1D05C9E6EEB554DC /* Headers */,
+				632DFDE9826FFF55500AED80AA5F22DD /* Sources */,
+				40D854139960F5CB7937A6613C48FE77 /* Frameworks */,
+				065E3F609449871E1F525D67EEA8D0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E6FCBAE0667D82B9164D26B72220342 /* PBXTargetDependency */,
+			);
+			name = "Pods-LeafRouter_Tests";
+			productName = "Pods-LeafRouter_Tests";
+			productReference = CC9F5B58AE186326A3A011A2D1654A4B /* Pods_LeafRouter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFC872B65173D5101B9F6D632C641B44 /* Pods-LeafRouter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B07EDD97BDBAE93E156BC43485EAB009 /* Build configuration list for PBXNativeTarget "Pods-LeafRouter_Example" */;
+			buildPhases = (
+				F72A09A7475DDF4F8F8EBF7F0D6CE346 /* Headers */,
+				C3A5AA135C9EC150AA8507BA2E81B5ED /* Sources */,
+				8E745EADD18AC9AF52701E2DA87D5C49 /* Frameworks */,
+				A7181FB75D4CC150E1532D70D7D8E774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2497105ADB120FD0562786AF340C0833 /* PBXTargetDependency */,
+			);
+			name = "Pods-LeafRouter_Example";
+			productName = "Pods-LeafRouter_Example";
+			productReference = 1F00CCEBA48799057457F0DBC0AA9DAD /* Pods_LeafRouter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					00BE008A4109B76184042687F6E5CD23 = {
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A54A9BC5C2BE98B552CB1534280126D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00BE008A4109B76184042687F6E5CD23 /* LeafRouter */,
+				AFC872B65173D5101B9F6D632C641B44 /* Pods-LeafRouter_Example */,
+				5C7077BED39412FD731A7700C211C4AE /* Pods-LeafRouter_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		065E3F609449871E1F525D67EEA8D0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528E51F976D98D699412B72019D0DF1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7181FB75D4CC150E1532D70D7D8E774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		632DFDE9826FFF55500AED80AA5F22DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B51E7D41FCA6D242EB204F433CDD8D /* Pods-LeafRouter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BA7F67721CC3B0EDDE39F322ED4B46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0861548268F05E10068B74B /* LeafRouter.swift in Sources */,
+				E086154A268F060A0068B74B /* LeafRouting.swift in Sources */,
+				E0861554268F096E0068B74B /* UIApplication+ex.swift in Sources */,
+				E086154E268F07480068B74B /* TransitionType.swift in Sources */,
+				E0861550268F07A00068B74B /* RoutingSource.swift in Sources */,
+				07223C00187498F8A65E9FDFC32AE0BE /* LeafRouter-dummy.m in Sources */,
+				E086154C268F07190068B74B /* Navigating.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A5AA135C9EC150AA8507BA2E81B5ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FAF5146C19E18CA00AFD60480E8266F /* Pods-LeafRouter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2497105ADB120FD0562786AF340C0833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LeafRouter;
+			target = 00BE008A4109B76184042687F6E5CD23 /* LeafRouter */;
+			targetProxy = 0D9BBDEBA39452391203B7472C1ABE79 /* PBXContainerItemProxy */;
+		};
+		2E6FCBAE0667D82B9164D26B72220342 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LeafRouter_Example";
+			target = AFC872B65173D5101B9F6D632C641B44 /* Pods-LeafRouter_Example */;
+			targetProxy = BA463DAE8BC2BFDBCC7ECF4551BBD61A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		26DBADA7DF25C80649DCCBE32905EC23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 956422919CBBD7363FF886D0F19AC56F /* LeafRouter.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LeafRouter/LeafRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LeafRouter/LeafRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LeafRouter/LeafRouter.modulemap";
+				PRODUCT_MODULE_NAME = LeafRouter;
+				PRODUCT_NAME = LeafRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C47E16FFD0CA2BADCCD5277C7353B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CBFD4E07A56BB709528D1EDF59C805F /* LeafRouter.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LeafRouter/LeafRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LeafRouter/LeafRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LeafRouter/LeafRouter.modulemap";
+				PRODUCT_MODULE_NAME = LeafRouter;
+				PRODUCT_NAME = LeafRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E178934959C41E94963B1AF874FD301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75B347F6A8C5087CE56684A434E88F6E /* Pods-LeafRouter_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LeafRouter_Tests/Pods-LeafRouter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LeafRouter_Tests/Pods-LeafRouter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C73690D1BE2AC0AE113CA33E5F653EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05BBB71C2971F6FB4492DDD9990F070 /* Pods-LeafRouter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LeafRouter_Tests/Pods-LeafRouter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LeafRouter_Tests/Pods-LeafRouter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DD057F676160B79DBA84665A98FDE615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E9BDCC8411B0FAED68B9140BED89FEF /* Pods-LeafRouter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LeafRouter_Example/Pods-LeafRouter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LeafRouter_Example/Pods-LeafRouter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3E89F077FE62633BA32808A0AD3BF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B865E15D9FA00E6DA6B3697D7804EEF3 /* Pods-LeafRouter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LeafRouter_Example/Pods-LeafRouter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LeafRouter_Example/Pods-LeafRouter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783C1760F43A88EDE31787571A24167A /* Build configuration list for PBXNativeTarget "Pods-LeafRouter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E178934959C41E94963B1AF874FD301 /* Debug */,
+				C73690D1BE2AC0AE113CA33E5F653EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		799BD960B416AC54239E63819BFECD39 /* Build configuration list for PBXNativeTarget "LeafRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DBADA7DF25C80649DCCBE32905EC23 /* Debug */,
+				5C47E16FFD0CA2BADCCD5277C7353B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B07EDD97BDBAE93E156BC43485EAB009 /* Build configuration list for PBXNativeTarget "Pods-LeafRouter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E89F077FE62633BA32808A0AD3BF70 /* Debug */,
+				DD057F676160B79DBA84665A98FDE615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

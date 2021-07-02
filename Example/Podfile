@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LeafRouter_Example' do
+  pod 'LeafRouter', :path => '../'
+
+  target 'LeafRouter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

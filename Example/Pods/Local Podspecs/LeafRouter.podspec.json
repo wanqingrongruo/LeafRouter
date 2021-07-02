@@ -1,0 +1,22 @@
+{
+  "name": "LeafRouter",
+  "version": "0.1.0",
+  "summary": "A short description of LeafRouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wanqingrongruo/LeafRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wanqingrongruo": "zwxwqrr@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/wanqingrongruo/LeafRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LeafRouter/Classes/**/*"
+}

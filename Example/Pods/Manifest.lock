@@ -1,0 +1,16 @@
+PODS:
+  - LeafRouter (0.1.0)
+
+DEPENDENCIES:
+  - LeafRouter (from `../`)
+
+EXTERNAL SOURCES:
+  LeafRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LeafRouter: 3a43110e0bf921f584db78595da8dc41c4a4355f
+
+PODFILE CHECKSUM: fb8be486224c510c6f3848a0e91a4ccce542c24d
+
+COCOAPODS: 1.10.1
